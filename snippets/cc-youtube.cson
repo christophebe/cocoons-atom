@@ -1,0 +1,19 @@
+".source.gfm":
+  'Cocoons List widget':
+    'prefix' : 'cc-youtube'
+    'body' : """
+
+      ```widget
+      { "name" : "youtube.jade",
+        "properties" : {
+          "name"            : "${1:Add a good name or a title for SEO}",
+          "description"     : "${2:Add keywords in this description}",
+          "duration"        : "${3:T1M33S}",
+          "thumbnail"       : "${4:/images/thumbnail.jpg}",
+          "regionsAllowed"  : "${5: COUNTRYCODE COUNTRYCODE}",
+          "src" : "//www.youtube.com/embed/${6:video-id}",
+          "allowfullscreen" : ${7:true}
+        }
+      }
+      ```
+"""

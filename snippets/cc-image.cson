@@ -1,0 +1,14 @@
+".source.gfm":
+  'Cocoons Image widget':
+    'prefix' : 'cc-image'
+    'body' : """
+      ```widget
+      { "name" : "image.jade",
+        "properties" : {
+          "src" : "${1:image-url}",
+          "alt" : "${2:alt-text}",
+          "align" : "${3:right|left}",
+        }
+      }
+      ```
+"""

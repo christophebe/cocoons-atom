@@ -1,0 +1,22 @@
+".source.gfm":
+  'Cocoons Image Text widget':
+    'prefix' : 'cc-image-text'
+    'body' : """
+      ```widget
+      { "name" : "image-text.jade",
+        "properties" : {
+          "title" : "${1:Title}",
+          "texts" : [
+                "${2:Paragraph}",
+                "${3:Paragraph}"
+          ],
+          "image" : {
+            "align" : "${4:right|left}",
+            "src" : "${5:image-url}",
+            "alt" : "${6:Alt-text}"
+          }
+
+        }
+      }
+      ```
+"""

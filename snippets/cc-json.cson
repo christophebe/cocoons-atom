@@ -1,0 +1,11 @@
+".json":
+  'Cocoons Json File':
+    'prefix' : 'cc-json'
+    'body' : """
+      {
+        "template": "${1:page.jage|page-with-sidebar.jade}",
+        "description" : "${2:description}",
+        "title": "${3:title}",
+        "h1" : "${4:h1 - only for page-with-sidebar}"
+      }
+"""

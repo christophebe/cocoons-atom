@@ -1,0 +1,32 @@
+".source.gfm":
+  'Cocoons Carousel widget':
+    'prefix' : 'cc-carousel'
+    'body' : """
+      ```widget
+      { "name" : "carousel.jade",
+        "properties" : {
+          "id" : "${1:id-carousel}",
+          "images" : [
+            { "alt": "${2:alt}",
+              "src":"${3:url-image}",
+              "call2action" : {
+                        "title" : "${4:title}",
+                        "text"  : "${5:text}",
+                        "link"  : {
+                          "href" : "${6:url}",
+                          "anchor" : "${7:anchor »}"
+                        }
+              }
+            },
+            { "alt": "${8:alt}",
+              "src":"${9:url-image}"
+            },
+            { "alt": "${10:alt}",
+              "src":"${11:url-image}"
+            }
+          ]
+        }
+
+      }
+      ```
+"""

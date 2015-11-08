@@ -1,0 +1,12 @@
+".source.gfm":
+  'Cocoons Alert widget':
+    'prefix' : 'cc-message'
+    'body' : """
+      ```widget
+      { "name" : "${1:alert|message}.jade",
+         "properties" : {
+            "text"  : "${2:alert message}"
+         }
+      }
+      ```
+"""

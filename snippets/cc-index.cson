@@ -1,0 +1,38 @@
+".source.gfm":
+  'Cocoons Index widget':
+    'prefix' : 'cc-index'
+    'body' : """
+    ```widget
+    { "name" : "index.jade",
+      "properties" : {
+        "images" : [
+
+            {
+              "src" : "slider.jpg",
+              "overlay" : "overlay.jpg",
+              "link" : {
+                "anchor" : "",
+                "url" : ""
+              }
+            },
+            {
+              "src" : "slider.jpg",
+              "overlay" : "overlay.jpg",
+              "link" : {
+                "anchor" : "",
+                "url" : ""
+              }
+            },
+            {
+              "src" : "slider.jpg",
+              "overlay" : "overlay.jpg",
+              "link" : {
+                "anchor" : "",
+                "url" : ""
+              }
+            }                      
+        ]
+      }
+    }
+    ```
+"""

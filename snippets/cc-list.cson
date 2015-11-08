@@ -1,0 +1,16 @@
+".source.gfm":
+  'Cocoons List widget':
+    'prefix' : 'cc-list'
+    'body' : """
+      ```widget
+      { "name" : "list.jade",
+        "properties" : {
+          "columns" :[
+              [{"title" : " ${1:Title}", "text" : "${2:text}"}],
+              [{"title" : " ${3:Title}", "text" : "${4:text}"}]
+
+          ]
+        }
+      }
+      ```
+"""

@@ -1,0 +1,24 @@
+".source.gfm":
+  'Cocoons HTML 5 video widget':
+    'prefix' : 'cc-video'
+    'body' : """
+      ```widget
+      { "name" : "video.jade",
+        "properties" : {
+          "name"            : "${1:Add a good name or a title for SEO}",
+          "description"     : "${2:Add keywords in this description}",
+          "duration"        : "${3:T1M33S}",
+          "thumbnail"       : "${4:/images/thumbnail.jpg}",
+          "regionsAllowed"  : "${5: COUNTRYCODE COUNTRYCODE}",
+          "src"             : "${6:url}",
+          "type"            : "${7:video/mp4}",
+          "width"           : "${8:640}",
+          "height"          : "${9:480}",
+          "controls"        : ${10:true},
+          "autoplay"        : ${11:true},
+          "message"         : "${12:Your browser does not support the video tag.}"
+        }
+      }
+      ```
+
+"""

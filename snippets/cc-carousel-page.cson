@@ -1,0 +1,33 @@
+".source.gfm":
+  'Cocoons Carousel widget':
+    'prefix' : 'cc-carousel-page'
+    'body' : """
+    ```widget
+    { "name" : "carousel-page.jade",
+      "properties" : {
+        "title" : "D'autres caractéristiques canines",
+        "images" : [
+
+            {
+              "src" : "/images/portfolio/4/1.jpg",
+              "overlay" : "/images/test-overlay.png",
+              "link" : {
+                "anchor" : "L'ouïe",
+                "url" : "/caracteristiques/ouie.html"
+              }
+            },
+
+            {
+              "src" : "/images/portfolio/4/1.jpg",
+              "overlay" : "/images/portfolio/full/1.jpg",
+              "link" : {
+                "anchor" : "La vue",
+                "url" : "/caracteristiques/vue.html"
+              }
+            }
+
+        ]
+      }
+    }
+    ```
+"""

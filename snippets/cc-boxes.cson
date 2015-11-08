@@ -1,0 +1,28 @@
+".source.gfm":
+  'Cocoons Boxes widget':
+    'prefix' : 'cc-boxes'
+    'body' : """
+      ```widget
+      { "name" : "boxes.jade",
+        "properties" : {
+          "boxes" : [
+            {
+              "title" : "${1:Title}",
+              "text"  : "${2:Text}",
+              "link"  : {"href" : "/${3:url}.html", "anchor" : "${4:anchor} »"}
+            },
+            {
+              "title" : "${5:Title}",
+              "text"  : "${6:Text}",
+              "link"  : {"href" : "/${7:url}.html", "anchor" : "${8:anchor} »"}
+            },
+            {
+              "title" : "${9:Title}",
+              "text"  : "${10:Text}",
+              "link"  : {"href" : "/${11:url}.html", "anchor" : "${12:anchor} »"}
+            }
+          ]
+        }
+      }
+      ```
+"""

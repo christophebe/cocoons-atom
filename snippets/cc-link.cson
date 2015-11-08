@@ -1,0 +1,6 @@
+".source.gfm":
+  'Cocoons Link':
+    'prefix' : 'cc-link'
+    'body' : """
+      [${1:anchor}](${2:url})
+"""

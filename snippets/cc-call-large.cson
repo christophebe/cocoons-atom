@@ -1,0 +1,14 @@
+".source.gfm":
+  'Cocoons Call2Action Large widget':
+    'prefix' : 'cc-call-large'
+    'body' : """
+      ```widget
+      { "name" : "call2action-large.jade",
+        "properties" : {
+          "title" : "${1:Title}",
+          "text"  : "${2:text}",
+          "link"  : {"href" : "/${3:url}.html", "anchor" : "${4:anchor} »"}
+        }
+      }
+      ```
+"""

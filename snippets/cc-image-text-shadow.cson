@@ -1,0 +1,21 @@
+".source.gfm":
+  'Cocoons Image Text Shadow widget':
+    'prefix' : 'cc-image-text-shadow'
+    'body' : """
+      ```widget
+      {
+        "name" : "image-text-shadow.jade",
+        "properties" : {
+          "title" : "${1:title}",
+          "image" : {
+              "src" : "${2:src}",
+              "alt" : "${3:alt-text}"
+           },
+           "texts" : [
+              "${4:paragraph-1}",
+              "${5:paragraph-2}"
+           ]
+        }
+      }
+      ```
+"""
